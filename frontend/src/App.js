@@ -7,18 +7,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <HeaderComponent />
+    <BrowserRouter>
+      <HeaderComponent />
+      <div className="container">
         <Routes>
           <Route path="/" element={<ListEmployeeComponent />} />
           <Route path="/employee" element={<ListEmployeeComponent />} />
           <Route path="/add-employee" element={<AddEmployeeComponent />} />
           <Route path="/edit-employee/:id" element={<AddEmployeeComponent />} />
         </Routes>
-        <FooterComponent />
-      </BrowserRouter>
-    </div>
+      </div>
+      <FooterComponent />
+    </BrowserRouter>
   );
 }
 
