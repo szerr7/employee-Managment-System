@@ -8,7 +8,6 @@ import { faEdit, faTrash } from "@fortawesome/free-solid-svg-icons";
 // Define the ListEmployeeComponent
 const ListEmployeeComponent = () => {
   // State variable to store the employees
-
   const [employees, setEmployees] = useState([]);
 
   // UseEffect hook to fetch the employees when the component mounts
@@ -22,13 +21,20 @@ const ListEmployeeComponent = () => {
       // Get the employees from the server
       const response = await EmployeeService.getEmployees();
       console.log(response.data);
-
       // Set the employees state variable to the response data
       setEmployees(response.data);
     } catch (error) {
       // Handle errors
       console.log(error);
     }
+  }
+
+  // Function to delete an employee
+  function deleteEmployee(e, id) {
+    e.preventDefault();
+    EmployeeService.deleteEmployee(id)
+      .then(() => getEmployees())
+      .catch((error) => console.log("Error in deleting employee", error));
   }
 
   // Render the component
@@ -54,10 +60,16 @@ const ListEmployeeComponent = () => {
               <td>{`${employee.firstName} ${employee.lastName}`}</td>
               <td>{employee.email}</td>
               <td>
-                <Link to={`/add-employee/${employee.id}`} className="btn btn-info mr-2">
+                <Link
+                  to={`/add-employee/${employee.id}`}
+                  className="btn btn-info mr-2"
+                >
                   <FontAwesomeIcon icon={faEdit} /> Update
                 </Link>{" "}
-                <button className="btn btn-danger">
+                <button
+                  onClick={(e) => deleteEmployee(e, employee.id)}
+                  className="btn btn-danger"
+                >
                   <FontAwesomeIcon icon={faTrash} /> Delete
                 </button>
               </td>

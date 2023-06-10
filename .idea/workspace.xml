@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8299d5b2-ab4f-452d-a7a3-fe6da9cfc352" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/edu/miu/backend/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/edu/miu/backend/domain/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/component/AddEmployeeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/AddEmployeeComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/component/ListEmployeeCompoent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/ListEmployeeCompoent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/service/EmployeeService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/service/EmployeeService.js" afterDir="false" />

@@ -25,42 +25,32 @@ const AddEmployeeComponent = () => {
   }, [id]);
 
   function saveEmployee(e) {
-    
-        e.preventDefault();
+    e.preventDefault();
     if (firstName === "" || lastName === "" || email === "") {
       alert("All the fields are mandatory!");
       return;
     }
-    
+
     if (id) {
       EmployeeService.updateEmployee(id, employeeData)
         .then(() => navigate("/employee"))
         .catch((err) => console.log(err));
-      return;
     } else {
       EmployeeService.createEmployee(employeeData)
         .then(() => navigate("/employee"))
         .catch((err) => console.log(err));
     }
-
-    EmployeeService.createEmployee(employeeData)
-      .then(() => navigate("/employee"))
-      .catch((err) => console.log(err));
-  }
-
-  function getTitle() {
-    return id ? (
-      <h2 className="text-center">Update Employee</h2>
-    ) : (
-      <h2 className="text-center">Add Employee</h2>
-    );
   }
 
   return (
     <div className="container mt-5">
       <div className="row">
         <div className="card col-md-6 offset-md-3">
-          {getTitle()}
+          {id ? (
+            <h2 className="text-center">Update Employee</h2>
+          ) : (
+            <h2 className="text-center">Add Employee</h2>
+          )}
           <div className="card-body">
             <form>
               <div className="form-group mb-2">
@@ -93,7 +83,7 @@ const AddEmployeeComponent = () => {
               <button onClick={saveEmployee} className="btn btn-success">
                 Save
               </button>{" "}
-              <Link to={"/employee"} className="btn btn-danger">
+              <Link to="/employee" className="btn btn-danger">
                 Cancel
               </Link>
             </form>

@@ -19,6 +19,12 @@ class EmployeeService {
         getEmployeeById(id) {
                 return axios.get(`${API_URL}/${id}`);
         }
+
+
+        deleteEmployee(id) {
+                return axios.delete(`${API_URL}/${id}`);
+                
+        }
 }
 
 export default new EmployeeService();
