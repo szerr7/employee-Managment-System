@@ -54,9 +54,9 @@ const ListEmployeeComponent = () => {
               <td>{`${employee.firstName} ${employee.lastName}`}</td>
               <td>{employee.email}</td>
               <td>
-                <button className="btn btn-info mr-2">
+                <Link to={`/add-employee/${employee.id}`} className="btn btn-info mr-2">
                   <FontAwesomeIcon icon={faEdit} /> Update
-                </button>{" "}
+                </Link>{" "}
                 <button className="btn btn-danger">
                   <FontAwesomeIcon icon={faTrash} /> Delete
                 </button>
