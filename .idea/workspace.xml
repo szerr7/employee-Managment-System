@@ -190,15 +190,6 @@
       <change afterPath="$PROJECT_DIR$/../../SE- [CS425]/fianlSWE-pROJECT/tired of them/Flightbooking/.idea/Flightbooking.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SE- [CS425]/fianlSWE-pROJECT/tired of them/Flightbooking/AirLineTicketBooking/AirLineTicketBooking.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SE- [CS425]/fianlSWE-pROJECT/tired of them/flightWebApp/.idea/flightWebApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/edu/miu/backend/BackendApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/edu/miu/backend/BackendApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../WAP-[CS472]/ExamsAndQuiz_labs/Exams/midTermExam.kalu/md/.idea/midterm-final.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AirlineTicketSystem-Spring-Boot/META-INF/context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AirlineTicketSystem-Spring-Boot/web/WEB-INF/web.xml" beforeDir="false" />
@@ -227,7 +218,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -239,6 +230,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
@@ -248,6 +243,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -289,7 +285,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686383804521</updated>
       <workItem from="1686383805997" duration="516000" />
-      <workItem from="1686384346467" duration="2166000" />
+      <workItem from="1686384346467" duration="2546000" />
     </task>
     <servers />
   </component>
