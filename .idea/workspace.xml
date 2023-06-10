@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8299d5b2-ab4f-452d-a7a3-fe6da9cfc352" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c6308a8-f1b4-4932-8179-52f6b98eb848.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c6308a8-f1b4-4932-8179-52f6b98eb848.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c6308a8-f1b4-4932-8179-52f6b98eb848/storage_v2/_src_/database/Employee-db.3c_kmQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c6308a8-f1b4-4932-8179-52f6b98eb848/storage_v2/_src_/database/Employee-db.3c_kmQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/edu/miu/backend/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/edu/miu/backend/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/ListEmployeeCompoent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/ListEmployeeCompoent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/AddEmployeeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/AddEmployeeComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/service/EmployeeService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/service/EmployeeService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
